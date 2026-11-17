@@ -16,7 +16,7 @@
 *   S3       age cutoff at 45+, then unrestricted
 *
 * Nothing here is exploratory. Any additional model run against these data
-* is not covered by the preregistration and must be labelled as such.
+* is not covered by the analysis plan (DESIGN.md) and must be labelled as such.
 *
 * Household Finance Lab
 *==============================================================================

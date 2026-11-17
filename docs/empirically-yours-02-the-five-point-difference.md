@@ -115,8 +115,8 @@ A difference can be clear in the group and barely useful for predicting the pers
 
 **We didn't get here first.** Researchers have long studied adult-child coresidence and parents' finances, and the distinction at the center of our result has its own history: Galit Shmueli on explaining versus predicting, and Nancy Cook on why an informative variable can barely move AUC. Our contribution is narrower: asking both questions about coresidence and emergency savings among adults 50 and older.
 
-**Want the machinery?** The preregistered design, data construction, Stata models, sensitivity checks, Python cross-validation, and every analytical decision are in the GitHub repository, including the question we had to give up.
+**Want the machinery?** The analysis plan, data construction, Stata models, sensitivity checks, Python cross-validation, and every analytical decision are in the GitHub repository, including the question we had to give up.
 
 ---
 
-*Preregistered observational analysis of 2025 SHED data. Not peer reviewed. Primary sample: 6,962 adults age 50 and older. Adjusted association: −5.11 percentage points (95% CI −7.49 to −2.73). Prediction: repeated five-fold cross-validation, five repeats; weighted AUC .8414 without coresidence and .8425 with it. Cross-sectional data cannot establish causality or identify transfers within households.*
+*Observational analysis of 2025 SHED data with a documented analysis plan. Not peer reviewed. Primary sample: 6,962 adults age 50 and older. Adjusted association: −5.11 percentage points (95% CI −7.49 to −2.73). Prediction: repeated five-fold cross-validation, five repeats; weighted AUC .8414 without coresidence and .8425 with it. Cross-sectional data cannot establish causality or identify transfers within households.*

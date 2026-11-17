@@ -3,7 +3,7 @@
 **Adult-child coresidence and emergency savings capacity among adults 50+**
 Household Finance Lab · Data: Federal Reserve Survey of Household Economics and Decisionmaking (SHED), 2025 public file (`public2025.csv`, n = 12,934)
 
-**Status:** preregistered. Everything below was fixed before the build was run.
+**Status:** documented analysis plan. Everything below was fixed before the adjusted and prediction-layer results were examined. The unadjusted comparison and age-benchmark figures were computed while the plan was being written; see the disclosure in §2 and the figures in §7.
 
 ---
 

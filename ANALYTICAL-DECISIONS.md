@@ -1,10 +1,10 @@
 # Analytical decisions
 
-Every consequential choice in this project, the alternative that was available, and whether the number moved. Decisions marked **preregistered** were fixed in `DESIGN.md` before the build was run. Decisions marked **build-time** were made while writing `01_build.do` and are recorded here because they were judgment calls, not mechanics.
+Every consequential choice in this project, the alternative that was available, and whether the number moved. Decisions marked **pre-specified** were set in `DESIGN.md` before the adjusted and prediction-layer results were examined. Decisions marked **build-time** were made while writing `01_build.do` and are recorded here because they were judgment calls, not mechanics.
 
 ---
 
-## 1. Outcome: a threshold, not a level — **preregistered**
+## 1. Outcome: a threshold, not a level — **pre-specified**
 
 **Chose:** a binary `cap2k`, can the respondent cover a $2,000 emergency expense from savings.
 
@@ -28,7 +28,7 @@ Every consequential choice in this project, the alternative that was available, 
 
 ---
 
-## 3. Income entered as 15 categories, not an ordinal score — **preregistered**
+## 3. Income entered as 15 categories, not an ordinal score — **pre-specified**
 
 **Chose:** `i.income`, treated as categorical throughout.
 
@@ -40,7 +40,7 @@ Every consequential choice in this project, the alternative that was available, 
 
 ---
 
-## 4. Which income measure — **preregistered as S1, and the one that moved**
+## 4. Which income measure — **pre-specified as S1, and the one that moved**
 
 **Chose:** I40, income received by the respondent and spouse or partner, asked inside the SHED interview, 15 brackets.
 
@@ -52,7 +52,7 @@ Every consequential choice in this project, the alternative that was available, 
 
 ---
 
-## 5. The 161 profile-inconsistent cases: retained — **preregistered, Sec. 6**
+## 5. The 161 profile-inconsistent cases: retained — **pre-specified, Sec. 6**
 
 **Chose:** keep respondents who answered L0_c = Yes while the Ipsos profile reports one adult in the household.
 
@@ -64,7 +64,7 @@ Every consequential choice in this project, the alternative that was available, 
 
 ---
 
-## 6. Age cutoff at 50 — **preregistered, with 45+ and unrestricted as S3**
+## 6. Age cutoff at 50 — **pre-specified, with 45+ and unrestricted as S3**
 
 **Chose:** 50+ as the primary sample.
 
@@ -76,7 +76,7 @@ Every consequential choice in this project, the alternative that was available, 
 
 ---
 
-## 7. Average marginal effects, not odds ratios — **preregistered**
+## 7. Average marginal effects, not odds ratios — **pre-specified**
 
 **Chose:** report AMEs on the percentage-point scale, averaged over the observed covariate distribution.
 
@@ -106,7 +106,7 @@ Every consequential choice in this project, the alternative that was available, 
 
 ---
 
-## 10. Folds assigned in Stata, never regenerated in Python — **preregistered, Sec. 9**
+## 10. Folds assigned in Stata, never regenerated in Python — **pre-specified, Sec. 9**
 
 **Chose:** five fold columns written into the Python input file, stratified on the four cells of `cap2k` × `coresident`, seeds 202502–202506, with the data sorted on `rid` before each draw.
 

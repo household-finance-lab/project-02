@@ -2,8 +2,8 @@ cff-version: 1.2.0
 message: "If you use this repository, please cite it as below."
 title: "HFL Project 02: Adult-child coresidence and emergency savings capacity among adults 50+"
 abstract: >-
-  A preregistered analysis of the 2025 Survey of Household Economics and
-  Decisionmaking examining whether living with an adult child is associated with
+  An observational analysis, with a documented analysis plan, of the 2025 Survey
+  of Household Economics and Decisionmaking examining whether living with an adult child is associated with
   a lower probability of being able to cover a $2,000 emergency expense from
   savings among U.S. adults age 50 and older, paired with an out-of-sample test
   of whether that information improves prediction for individual households.
