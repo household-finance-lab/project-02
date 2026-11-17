@@ -6,19 +6,23 @@ Among adults 50 and older, does living with an adult child go with less ability 
 
 Yes, by about **5 percentage points**, after accounting for income, education, housing, and other differences (95% CI: 2.7 to 7.5). But knowing whether an adult child lives at home barely helps predict which household can cover the expense. The pair is the finding. Standard errors and confidence intervals are approximate: the public SHED file lacks the strata, PSU, and replicate weights needed to represent the original sampling design fully.
 
+**What it does not show:** that an adult child moving home *causes* lower savings capacity (lower resources may draw a child home), or that the child is being supported (the survey doesn't observe money moving within the household).
+
 📖 [**Read the story**](docs/empirically-yours-02-the-five-point-difference.md) (Empirically Yours №2) · 🔁 [**Reproduce it**](#reproduce-it) · 📎 [**Cite it**](CITATION.cff)
 
 > **Research status:** observational analysis with a documented analysis plan. The unadjusted association and selected descriptive checks were examined during design; the adjusted and predictive analyses were specified before those results were examined. **Not peer reviewed.**
 
 ---
 
+## Methodological lesson
+
+**Association and incremental prediction answer different questions.** The adjusted difference asks how much the average probability shifts between groups. The prediction test asks whether the variable adds information a model does not already hold. When the base model already discriminates well (AUC .84 here), a variable with a clear association can barely move AUC (Cook, 2007). A small AUC increment is not evidence that the association is unimportant, and a robust association is not evidence that the variable is useful for classifying individual households.
+
 ## What this study supports
 
 - **A clear group difference.** Adults 50+ living with an adult child were 13.1 points less likely to be able to cover $2,000 unadjusted, and **5.1 points** less likely after adjustment (6,962 adults). The gap held at age 45+, across all adults, and after removing 161 records with inconsistent household information.
 - **Almost no help predicting individuals.** Adding adult-child coresidence changed weighted out-of-sample AUC from .8414 to .8425, an increment of about .001 (.0009 to .0012 across the five repeats), indicating very little additional discrimination. A second model (gradient boosting) showed an even smaller gain.
 - **Both are true.** A difference can be real across a group and barely useful for predicting the person.
-
-**What it does not show:** that an adult child moving home *causes* lower savings capacity (lower resources may draw a child home), or that the child is being supported (the survey doesn't observe money moving within the household).
 
 ## What changed along the way
 
