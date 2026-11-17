@@ -275,7 +275,7 @@ di as res "GATE 7 PASS: profile-inconsistency flag = " r(N)
 svyset [pw=wt]
 
 *--- GATE 6: weighted cap2k by coresidence reproduces the disclosed figures
-*    Tolerance 0.1pp: the preregistered values are rounded to one decimal and
+*    Tolerance 0.1pp: the disclosed values in DESIGN.md are rounded to one decimal and
 *    the survey point estimate should land within that.
 qui summarize cap2k [aw=wt] if coresident == 0
 local p0 = r(mean)*100
