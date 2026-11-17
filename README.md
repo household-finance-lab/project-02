@@ -4,7 +4,7 @@
 
 Among adults 50 and older, does living with an adult child go with less ability to cover a $2,000 emergency from savings?
 
-Yes, by about **5 percentage points**, after accounting for income, education, housing, and other differences (95% CI: 2.7 to 7.5). But knowing whether an adult child lives at home barely helps predict which household can cover the expense. The pair is the finding.
+Yes, by about **5 percentage points**, after accounting for income, education, housing, and other differences (95% CI: 2.7 to 7.5). But knowing whether an adult child lives at home barely helps predict which household can cover the expense. The pair is the finding. The public SHED file lacks the strata, PSU, and replicate weights needed to represent the original sampling design fully, so the confidence interval and other standard errors are approximate.
 
 📖 [**Read the story**](docs/empirically-yours-02-the-five-point-difference.md) (Empirically Yours №2) · 🔁 [**Reproduce it**](#reproduce-it) · 📎 [**Cite it**](CITATION.cff)
 
@@ -15,7 +15,7 @@ Yes, by about **5 percentage points**, after accounting for income, education, h
 ## What this study supports
 
 - **A clear group difference.** Adults 50+ living with an adult child were 13.1 points less likely to be able to cover $2,000 unadjusted, and **5.1 points** less likely after adjustment (6,962 adults). The gap held at age 45+, across all adults, and after removing 161 records with inconsistent household information.
-- **Almost no help predicting individuals.** Adding adult-child coresidence raised out-of-sample accuracy (weighted AUC) from .8414 to .8425, consistently across all five repeats and in a second model.
+- **Almost no help predicting individuals.** Adding adult-child coresidence changed weighted out-of-sample AUC from .8414 to .8425, an increment of .0011, indicating very little additional discrimination. The increment was consistent across all five repeats and in a second model.
 - **Both are true.** A difference can be real across a group and barely useful for predicting the person.
 
 **What it does not show:** that an adult child moving home *causes* lower savings capacity (lower resources may draw a child home), or that the child is being supported (the survey doesn't observe money moving within the household).
