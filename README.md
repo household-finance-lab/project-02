@@ -8,7 +8,7 @@ Yes, by about **5 percentage points**, after accounting for income, education, h
 
 📖 [**Read the story**](docs/empirically-yours-02-the-five-point-difference.md) (Empirically Yours №2) · 🔁 [**Reproduce it**](#reproduce-it) · 📎 [**Cite it**](CITATION.cff)
 
-> **Status:** preregistered analysis of observational, cross-sectional survey data. **Not peer reviewed.** The design was fixed before the build was run.
+> **Research status:** observational analysis with a documented analysis plan. The unadjusted association and selected descriptive checks were examined during design; the adjusted and predictive analyses were specified before those results were examined. **Not peer reviewed.**
 
 ---
 
@@ -30,7 +30,7 @@ Yes, by about **5 percentage points**, after accounting for income, education, h
 
 | File | What it is |
 |---|---|
-| [`DESIGN.md`](DESIGN.md) | The preregistered plan: question, hypothesis, variables, methods, limitations |
+| [`DESIGN.md`](DESIGN.md) | The analysis plan: question, hypothesis, variables, methods, limitations |
 | [`ANALYTICAL-DECISIONS.md`](ANALYTICAL-DECISIONS.md) | Every judgment call, the alternative, and whether the number moved |
 | [`CODEBOOK.md`](CODEBOOK.md) | Every variable: source, coding, how to rebuild it |
 | [`LITERATURE.md`](LITERATURE.md) | Who established what before us, and what remains open |
